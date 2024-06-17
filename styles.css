@@ -1,0 +1,696 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+/*----NAVEGADOR----*/
+.navbar {
+    background-color: #333333;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 2% 1% 2%;
+}
+.navbar .logo {
+    width: 70px;
+    align-content: center;
+}
+.navbar img {
+    width:100%;
+}
+.navbar .insidemusic {
+    align-content: center;
+    width:20%;
+}
+.navbar h1 {
+    color: #FFFF;
+    margin-bottom: 0px;
+}
+.links_bar {
+    padding-left:5%;
+    margin-left:80px
+    width:50px;
+    list-style: None;
+    align-content: center;
+    align-items: center;
+}
+.links_bar li {
+    display:inline-block;
+    position:relative;
+}
+.links_bar li a {
+    display:block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: None;
+    text-align: center;
+    font-size:15px;
+}
+.navbar ul li ul.dropdown li {
+    display:block;
+}
+.navbar ul li ul.dropdown li:hover {
+    font-weight: bold;
+}
+.navbar ul li ul.dropdown {
+    width:150%;
+    background: #282828;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    left:-50px;
+}
+.navbar ul li a:hover {
+    background: #282828;
+}
+.navbar ul li:hover ul.dropdown {
+    display:block;
+}
+/*------FOOTER-----*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color:#333333;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white
+}
+footer div {
+    width: 33%
+}
+.upvlogo {
+    align-content: center;
+    text-align: start;
+    align-items: flex-start;
+}
+.upvlogo img {
+    width:50%;
+    
+}
+.derechos {
+    text-align: center;
+    align-content: end;
+    margin-bottom: 20px; 
+}
+.realizadoen {
+    text-align: end;
+    align-items: flex-end;
+    margin-top:20px;
+}
+/*-----SECCIÓN DEL PDF DEL REPORT-----*/
+.seccion_pdf {
+    height:100%;
+}
+
+.seccion_pdf h1{
+    text-align: center;
+}
+.pdf_report {
+    padding-top: 5%;
+    margin:auto;
+    display:block;
+    width: 750px;
+    height: 200vh;
+    border: 15px;
+}
+
+/*---HomePage---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.presentacion {
+    background-color: #2d3045;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.presentacion h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.guia {
+    background-color: #2d3045;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.guia h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.guia p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.guia ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.guia ul li {
+    margin-bottom: 30px;
+}
+
+.guia ul li h2 {
+    font-size: 2em;
+}
+
+.guia ul li p {
+    font-size: 1.3em;
+}
+
+/*---SobreNosostros---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+.sobre_nosotors {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.titl h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.miembros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.integrante {
+    flex: 0 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.integrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.integrante h2 {
+    font-size: 1.7em;
+    color: #2d3045;
+    margin-bottom: 10px;
+}
+
+.integrante p {
+    font-size: 1.2em;
+    color: #2d3045;
+}
+
+.upv {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.upv h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.upv p {
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+
+.ciencia_datos {
+    margin-bottom: 20px;
+}
+
+.ciencia_datos h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ciencia_datos p {
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+
+/*---ConclusionesPrincipio---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+.dataset {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dataset h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.dataset h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.dataset .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dataset .logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.dataset p {
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+.dataset .enlace{
+    margin-top: 20px;
+}
+
+.dataset a {
+    color: rgb(159, 159, 252);
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.dataset img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.preprocess {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.preprocess h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.preprocess p {
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+.preprocess table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.preprocess th, .preprocess td {
+    border: 3px solid #fff;
+    padding: 8px;
+}
+
+.preprocess th {
+    background-color: #2d3045;
+    font-size:1.3em;
+}
+
+.preprocess td {
+    vertical-align: top;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.preprocess td b {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.preprocess td em {
+    font-size:1em;
+}
+
+/*---SectionConclusiones---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+.conclusiones {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.conclusiones h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.conclusiones p {
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+.conclusiones table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.conclusiones th, .conclusiones td {
+    border: 3px solid #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.conclusiones th {
+    background-color: #2d3045;
+}
+
+.anx_dep img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.me_pc {
+    margin-bottom: 20px;
+}
+.me_pc img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quadrant img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.BoxW {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.BoxWi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.BoxWi {
+    flex: 0 1 30%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.BoxWi img {
+    width: 650px;
+    height: 275px;
+}
+
+.BWmeH {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.BWmeH img {
+    width: 50%;
+    height: auto;
+}
+
+.pearsong {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.pearsong img {
+    width: 50%;
+    height: auto;
+}
+
+.quadrant2 img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.whileworking .parte2 {
+    margin-bottom: 20px;
+}
+
+.exploratory img {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fgparte2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fgparte2 {
+    flex: 0 1 30%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.fgparte2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.music_effects {
+    margin-top:40px;
+}
+
+.boxW {
+    margin-top:40px;
+}
+
+.parte2 {
+    margin-top:40px;
+}
+
+.Seccion_con_pearson {
+    margin-top:40px;
+}
+
+.whileworking {
+    margin-top:40px;
+}
+
+.exploratory {
+    margin-top:40px;
+}
+
+.favgenres {
+    margin-top:20px;
+}
+
+/*---Video---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+.seccion_video {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.seccion_video h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.seccion_video hr {
+    border: none;
+    height: 3px;
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.seccion_video iframe {
+    width: 80%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*---PDF---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #fff;
+    color: #2d3045;
+}
+
+.seccion_pdf {
+    background-color: #2d3045;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.seccion_pdf h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.seccion_pdf hr {
+    border: none;
+    height: 3px;
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pdf_report {
+    display: block;
+    width: 80%;
+    height: 1000px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
